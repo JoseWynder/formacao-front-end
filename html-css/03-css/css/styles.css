@@ -42,3 +42,8 @@ h2 {
 #algum-titulo {
     border-bottom: 4px solid green;
 }
+
+/* 10 - Nome de cores */
+.color-name {
+    color: crimson;
+}
