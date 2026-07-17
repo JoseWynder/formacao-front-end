@@ -65,3 +65,12 @@ h2 {
 .simple-hex-2 {
     color: #5f4;
 }
+
+/* 13 - RGB */
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(0, 127, 255);
+}
