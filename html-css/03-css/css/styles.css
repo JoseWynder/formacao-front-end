@@ -124,3 +124,16 @@ h2 {
     padding: 100px;
     color: white;
 }
+
+/* 20 - Centralizando bg image */
+.not-centered-bg,
+.centered-bg {
+    height: 350px;
+    width: 350px;
+    background-image: url("../img/panquecas.jpg");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
