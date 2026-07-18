@@ -267,3 +267,14 @@ h2 {
     width: 300px;
     height: 200px;
 }
+
+/* 31 - Text alignment */
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
