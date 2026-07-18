@@ -158,6 +158,16 @@ h2 {
 }
 
 .padding {
-    background-color: #555; 
+    background-color: #555;
     padding: 20px;
+}
+
+/* 23 - Padding individual */
+.padding-individual {
+    background-color: #222;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
 }
