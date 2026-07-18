@@ -120,7 +120,7 @@ h2 {
 
 /* 19 - Bg image */
 .bg-image {
-    background-image: url("../img/cidade.jpg");
+    background-image: url("../img/city.jpg");
     padding: 100px;
     color: white;
 }
@@ -130,7 +130,7 @@ h2 {
 .centered-bg {
     height: 350px;
     width: 350px;
-    background-image: url("../img/panquecas.jpg");
+    background-image: url("../img/pancakes.jpg");
 }
 
 .centered-bg {
