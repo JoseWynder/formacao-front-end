@@ -380,3 +380,8 @@ h2 {
     display: block;
     margin: 10px;
 }
+
+/* 40 - Escondendo elementos */
+.invisible {
+    display: none;
+}
