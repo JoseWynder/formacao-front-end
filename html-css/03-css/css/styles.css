@@ -303,3 +303,7 @@ h2 {
     text-transform: lowercase;
 }
 
+/* 34 - Letter spacing */
+.spacing {
+    letter-spacing: 5px;
+}
