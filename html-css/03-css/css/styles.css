@@ -257,3 +257,13 @@ h2 {
     background-color: #222;
     color: #ddd;
 }
+
+/* 30 - Box model */
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 300px;
+    height: 200px;
+}
