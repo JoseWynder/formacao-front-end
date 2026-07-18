@@ -387,10 +387,18 @@ h2 {
 }
 
 /* 41 - Position static */
-.static {
+.static, .relative {
     position: static;
     background-color: #391;
     color: white;
     width: 100px;
     height: 100px;
+}
+
+/* 42 - Position relative */
+.relative {
+    position: relative;
+    background-color: #224;
+    top: 100px;
+    left: 40px;
 }
