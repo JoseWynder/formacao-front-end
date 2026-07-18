@@ -387,7 +387,9 @@ h2 {
 }
 
 /* 41 - Position static */
-.static, .relative {
+.static,
+.relative,
+.absolute {
     position: static;
     background-color: #391;
     color: white;
@@ -401,4 +403,12 @@ h2 {
     background-color: #224;
     top: 100px;
     left: 40px;
+}
+
+/* 43 - Position absolute */
+.absolute {
+    position: absolute;
+    background-color: #964;
+    top: 2px;
+    right: 2px;
 }
