@@ -294,7 +294,6 @@ h2 {
 }
 
 /* 33 - Text transform */
-
 .upper {
     text-transform: uppercase;
 }
@@ -306,4 +305,25 @@ h2 {
 /* 34 - Letter spacing */
 .spacing {
     letter-spacing: 5px;
+}
+
+/* 35 - Fontes */
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-family: "Courier New";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
 }
