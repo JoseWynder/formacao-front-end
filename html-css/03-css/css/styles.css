@@ -197,3 +197,14 @@ h2 {
     background-color: #666;
     box-sizing: border-box;
 }
+
+/* 26 - Border */
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px dotted #931;
+    padding: 25px;
+}
