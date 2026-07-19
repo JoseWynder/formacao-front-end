@@ -86,16 +86,32 @@
         <div>
             <label for="car-model">Escolha o modelo do seu carro:</label>
             <div class="radio">
-                <input type="radio" value="bmw" name="car-model">
+                <input type="radio" name="car-model" value="bmw" />
                 <label for="bmw">BMW</label>
             </div>
             <div class="radio">
-                <input type="radio" value="ferrari" name="car-model">
+                <input type="radio" name="car-model" value="ferrari" />
                 <label for="ferrari">Ferrari</label>
             </div>
             <div class="radio">
-                <input type="radio" value="renault" name="car-model">
+                <input type="radio" name="car-model" value="renault" />
                 <label for="renault">Renault</label>
+            </div>
+        </div>
+        <!-- 15 - Checkbox -->
+        <div>
+            <label for="optionals">Opcionais do carro:</label>
+            <div class="checkbox">
+                <input type="checkbox" name="optionals[]" value="big-tires" />
+                <label for="big-tires">Pneus grandes</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="optionals[]" value="turbo-engine" />
+                <label for="turbo-engine">Motor Turbo</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="optionals[]" value="hybrid" />
+                <label for="hybrid">Híbrido</label>
             </div>
         </div>
         

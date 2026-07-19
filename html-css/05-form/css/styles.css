@@ -13,6 +13,8 @@ div label {
 
 .radio label, 
 .radio input, 
-.radio span {
+.radio span,
+.checkbox label,
+.checkbox input {
     display: inline-block;
 }
