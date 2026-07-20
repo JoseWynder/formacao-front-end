@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -10,10 +10,12 @@
 
 <body>
     <div class="container">
-        <div class="header">
+        <!-- Tag header semântica -->
+        <header class="header">
             <h3>Cadastre seu veículo para vender mais rápido!</h3>
-        </div>
-        <div class="form-container">
+        </header>
+        <!-- Tag main para o conteúdo principal -->
+        <main class="form-container">
             <div class="form-header">
                 <p>Formulário</p>
             </div>
@@ -33,7 +35,7 @@
                     </div>
                     <div class="box-input">
                         <label for="description">Descrição <span class="required-field">*</span></label>
-                        <textarea name="decription" id="description" class="block"
+                        <textarea name="description" id="description" class="block"
                             placeholder="Aqui você coloca os detalhes do veículo, por exemplo: Se ele tem algum arranhão."></textarea>
                     </div>
                     <div class="box-input">
@@ -55,10 +57,67 @@
                         <label for="purchase-date">Data de compra <span class="required-field">*</span></label>
                         <input type="date" name="purchase-date" id="purchase-date" class="block" required />
                     </div>
-                    <input type="submit" value="Enviar" />
+                    <!-- Fieldset e Legend para acessibilidade + Atributo value -->
+                    <fieldset class="box-input">
+                        <legend>Tipo de câmbio: <span class="required-field">*</span></legend>
+                        <input type="radio" id="manual" name="gear" value="manual" />
+                        <label for="manual">Manual</label>
+                        <input type="radio" id="auto" name="gear" value="auto" />
+                        <label for="auto">Automático</label>
+                    </fieldset>
+                    <!-- Fieldset agrupando todos os opcionais -->
+                    <fieldset class="optional-main-box">
+                        <legend>Opcionais</legend>
+                        <div class="optional-box">
+                            <ul class="optional-list">
+                                <li>
+                                    <input type="checkbox" id="airbag" name="optional[]" value="airbag" />
+                                    <label for="airbag">Airbag</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="alarm" name="optional[]" value="alarm" />
+                                    <label for="alarm">Alarme</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="ac" name="optional[]" value="ac" />
+                                    <label for="ac">Ar Condicionado</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="reverse-camera" name="optional[]"
+                                        value="reverse-camera" />
+                                    <label for="reverse-camera">Câmera de Ré</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="optional-box">
+                            <ul class="optional-list">
+                                <li>
+                                    <input type="checkbox" id="lane-assist" name="optional[]" value="lane-assist" />
+                                    <label for="lane-assist">Assistente de Pista</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="keyless" name="optional[]" value="keyless" />
+                                    <label for="keyless">Partida Keyless</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="smartphone" name="optional[]" value="smartphone" />
+                                    <label for="smartphone">Integração com Celular</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="leather-seat" name="optional[]" value="leather-seat" />
+                                    <label for="leather-seat">Banco de Couro</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </fieldset>
+                    <div class="box-input">
+                        <label for="images">Fotos do carro: <span class="required-field">*</span></label>
+                        <input type="file" multiple accept="image/png, image/jpeg" id="images" name="images" required />
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar</button>
                 </form>
             </div>
-        </div>
+        </main>
     </div>
 </body>
 
