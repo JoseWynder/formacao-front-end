@@ -8,3 +8,16 @@ h1 {
         color: blue;
     }
 }
+
+/* 3 - Min width */
+p {
+    background-color: red;
+    color: black;
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        background-color: black;
+        color: red;
+    }
+}
