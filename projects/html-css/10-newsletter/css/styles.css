@@ -1,3 +1,36 @@
-h1 {
-    color: red;
+/* Light / Dark Theme */
+:root {
+    --bg: white;
+    --text: #111;
+    --border: #e5e7eb;
+    --box: #f8fafc;
+    --action: #2563eb;
+}
+
+[theme-data="dark"] {
+    --bg: #0b1220;
+    --text: #e5e7eb;
+    --border: #1f2937;
+    --box: #111827;
+    --action: #38bdf8;
+}
+
+/* Reset Styles */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+    counter-reset: var(--text);
 }
