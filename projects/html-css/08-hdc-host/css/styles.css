@@ -295,12 +295,104 @@ nav {
     background-color: #2cc76a;
     color: white;
     cursor: pointer;
-
 }
 
 /* Footer */
 footer {
     text-align: center;
     font-weight: bold;
-    margin: 20px 0 100px;
+    margin: 50px 0 100px;
+}
+
+/* Resposividade */
+
+/* Small laptops a partir de 1100px */
+@media (max-width:1100px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/* Tablets 900 px */
+@media (max-width: 900px) {
+    .main-banner p {
+        padding: 0 6rem;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+
+    .plan .plan-name {
+        font-size: 19px;
+    }
+
+    .plan .plan-btn {
+        font-size: 23px;
+    }
+}
+
+/* Celular 576px */
+@media (max-width: 576px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-container {
+        padding: 0 1rem;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .main-banner p {
+        font-size: 28px;
+        padding: 0 2rem;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .searchdomain-container {
+        padding: 2rem;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 30px;
+    }
+
+    .searchdomain-container input[type="text"] {
+        width: 90%;
+    }
+
+    .contact-container {
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
