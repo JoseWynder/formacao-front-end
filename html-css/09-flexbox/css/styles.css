@@ -180,3 +180,15 @@ body {
 .shorthand .different {
     flex: 3 1 400px;
 }
+
+/* 12 - Self alignment */
+.self-alignment {
+    display: flex;
+    height: 300px;
+    align-items: flex-end;
+    border: 1px solid purple;
+}
+
+.self-alignment .different {
+    align-self: center;
+}
