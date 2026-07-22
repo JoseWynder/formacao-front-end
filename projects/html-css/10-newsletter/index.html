@@ -10,7 +10,35 @@
 </head>
 
 <body>
-    <h1>Newsletter Teste</h1>
+    <header class="header">
+        <div class="container">
+            <strong>Newsletter</strong>
+            <button class="btn" id="btn-theme">Alterar tema 🌗</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="box">
+            <h1>Inscreva-se</h1>
+            <p>Receba novidades em seu e-mail. Sem Spam.</p>
+
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Seu nome">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="nome@email.com">
+
+                <button type="submit" class="btn primary">Quero receber</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <small>Newsletter <span id="year"></span></small>
+        </div>
+    </footer>
 </body>
 
 </html>
