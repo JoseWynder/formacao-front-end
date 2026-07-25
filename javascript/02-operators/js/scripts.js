@@ -15,3 +15,12 @@ console.log(typeof Infinity);
 console.log(typeof -Infinity);
 console.log(12 * "abc");
 console.log(typeof NaN);
+
+// 4 Strings
+console.log("Um texto");
+console.log('Outro texto');
+console.log(`Mais um texto`);
+console.log(`13`)
+
+console.log(typeof 'Outro texto');
+console.log(typeof `Mais um texto`);
