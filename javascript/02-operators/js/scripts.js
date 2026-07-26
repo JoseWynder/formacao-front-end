@@ -24,3 +24,7 @@ console.log(`13`)
 
 console.log(typeof 'Outro texto');
 console.log(typeof `Mais um texto`);
+
+// 5 - Special Symbols in a String
+console.log("testando a \n quebra de linha");
+console.log("Espaçamento \t de tab");
