@@ -57,7 +57,7 @@ console.log(9 != "9");
 console.log(9 !== "9");
 
 
-// 10 - Logical Operators
+// 11 - Logical Operators
 console.log(true && true);
 console.log(true && false);
 console.log(5 > 2 && 2 < 10);
@@ -73,3 +73,9 @@ console.log(null === undefined);
 console.log(null == undefined);
 console.log(null == false);
 console.log(undefined == false);
+
+// 13 - Type Change
+console.log(5 * null);
+console.log("teste" * "opa");
+console.log("10" + 1);
+console.log("10" - 1);
