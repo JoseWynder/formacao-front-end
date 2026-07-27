@@ -28,3 +28,7 @@ console.log(typeof `Mais um texto`);
 // 5 - Special Symbols in a String
 console.log("testando a \n quebra de linha");
 console.log("Espaçamento \t de tab");
+
+// 6 - Concatenação
+console.log("Oi," + " tudo" + " bem?");
+console.log(`Testando` + ` com` + ` crase!`);
