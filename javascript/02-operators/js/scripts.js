@@ -29,7 +29,7 @@ console.log(typeof `Mais um texto`);
 console.log("testando a \n quebra de linha");
 console.log("Espaçamento \t de tab");
 
-// 6 - Concatenação
+// 6 - Concatenation
 console.log("Oi," + " tudo" + " bem?");
 console.log(`Testando` + ` com` + ` crase!`);
 
@@ -42,3 +42,10 @@ console.log(true);
 console.log(5 > 20);
 console.log(30 > 10);
 console.log(typeof true);
+
+// 9 - Comparations
+console.log(5 <= 5);
+console.log(5 < 5);
+console.log(10 == 10);
+console.log(10 == 9);
+console.log(10 != 9);
