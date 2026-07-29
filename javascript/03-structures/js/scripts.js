@@ -103,3 +103,11 @@ if (userName === "Matheus") {
 } else {
     console.log("Nenhuma condição aceita!");
 }
+
+// 10 - While
+let p = 0;
+
+while (p < 5) {
+    console.log(`Repetindo ${p}`);
+    p = p + 1;
+}
