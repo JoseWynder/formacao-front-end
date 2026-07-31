@@ -89,3 +89,16 @@ const parOuImpar = (n) => {
 
 parOuImpar(5);
 parOuImpar(10);
+
+// 6 - More about arrow functions
+const raizQuadrada = (x) => {
+    return Math.sqrt(x);
+};
+console.log(raizQuadrada(100));
+
+const raizQuadrada2 = (x) => Math.sqrt(x);
+console.log(raizQuadrada2(100));
+console.log(raizQuadrada2(144));
+
+const helloWorld = () => console.log("Hello, World!");
+helloWorld();
