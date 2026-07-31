@@ -171,3 +171,38 @@ console.log(c2);
 
 console.log(c1(4));
 console.log(c2(5));
+
+// 11 - Recursion
+const untilTen = (n, m) => {
+    if (n < 10) {
+        console.log("A função parou de executar!");
+    } else {
+        const x = n - m;
+        console.log(x);
+        untilTen(x, m);
+    }
+};
+
+untilTen(100, 7);
+
+// Infinite recursion
+/*
+// function run() {
+//     console.log("Executando...");
+//     run();
+// }
+
+// run();
+*/
+
+function fatorial(x) {
+    if (x === 0) {
+        return 1;
+    } else {
+        return x * fatorial(x - 1);
+    }
+}
+
+const num = 6;
+const result = fatorial(num);
+console.log(`O fatorial do número ${num} é ${result}`);
