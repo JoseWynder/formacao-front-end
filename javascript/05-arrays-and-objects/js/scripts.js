@@ -29,3 +29,15 @@ const text = "algum texto";
 console.log(text.toUpperCase());
 console.log(typeof text.toUpperCase);
 console.log(text.indexOf("g"));
+
+// 5 - Objects
+const person = {
+    name: "José",
+    age: 31,
+    job: "Programador"
+};
+
+console.log(person);
+console.log(person.name);
+console.log(person.name.length);
+console.log(typeof person);
