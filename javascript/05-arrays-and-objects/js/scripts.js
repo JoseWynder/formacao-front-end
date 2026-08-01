@@ -129,3 +129,17 @@ console.log(letters);
 letters.unshift("p", "q", "r");
 letters.unshift("z");
 console.log(letters);
+
+// 13 - IndexOf and lastIndexOf
+const myElements = ["Morango", "Maça", "Abacate", "Pêra", "Abacate"];
+
+console.log(myElements.indexOf("Maça"));
+console.log(myElements.indexOf("Abacate"));
+
+console.log(myElements[2]);
+console.log(myElements[myElements.indexOf("Abacate")]);
+
+console.log(myElements.lastIndexOf("Abacate"));
+
+console.log(myElements.indexOf("Mamão"));
+console.log(myElements.lastIndexOf("Mamão"));
