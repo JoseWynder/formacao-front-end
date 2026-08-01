@@ -56,3 +56,17 @@ console.log(car);
 
 delete car.km;
 console.log(car);
+
+// 7 - More about objects
+const obj = {
+    a: "teste",
+    b: true
+};
+console.log(obj instanceof Object);
+
+const obj2 = {
+    c: []
+};
+Object.assign(obj2, obj);
+console.log(obj);
+console.log(obj2);
