@@ -200,3 +200,13 @@ console.log(trimTest.trim());
 
 console.log(trimTest.length);
 console.log(trimTest.trim().length);
+
+// 19 - Padstart
+const testePadStart = "1";
+console.log(testePadStart);
+
+const newNumber = testePadStart.padStart(4, "0");
+console.log(newNumber);
+
+const testePadEnd = newNumber.padEnd(10, "0");
+console.log(testePadEnd);
