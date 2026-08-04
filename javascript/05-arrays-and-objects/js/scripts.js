@@ -269,3 +269,8 @@ console.log(firstName, lastName, job);
 // Renaming variables
 const { firstName: primeiroNome } = userDetails;
 console.log(primeiroNome);
+
+// 26 - Array destructuring
+const myList = ["Avião", "Submarino", "Carro"];
+const [veiculoA, veiculoB, veiculoC] = myList;
+console.log(veiculoA, veiculoB, veiculoC);
