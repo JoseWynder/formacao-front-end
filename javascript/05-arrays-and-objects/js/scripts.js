@@ -255,3 +255,17 @@ const somaInfinita2 = (...args) => {
 
 console.log(somaInfinita2(1, 2, 3));
 console.log(somaInfinita2(1, 25, 50, 100, 200, 300, 400, 500, 600, -76));
+
+// 25 - Object destructuring
+const userDetails = {
+    firstName: "José",
+    lastName: "Wynder",
+    job: "Programador"
+};
+
+const { firstName, lastName, job } = userDetails;
+console.log(firstName, lastName, job);
+
+// Renaming variables
+const { firstName: primeiroNome } = userDetails;
+console.log(primeiroNome);
