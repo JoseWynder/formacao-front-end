@@ -80,3 +80,12 @@ console.log(bob);
 const jack = criarCachorro("Jack", "Poodle");
 console.log(jack);
 console.log(Object.getPrototypeOf(jack));
+
+// 7 - Functions as a class
+function Cachorro(nome, raca) {
+    this.nome = nome;
+    this.raca = raca;
+}
+
+const husky = new Cachorro();
+console.log(husky);
