@@ -197,3 +197,21 @@ console.log(myPost.exibirTitulo);
 
 myPost.adicionarTags = "programação, javascript, js";
 console.log(myPost);
+
+// 14 - Inheritance
+class Mamifero {
+    constructor(patas) {
+        this.patas = patas;
+    }
+}
+
+class Lobo extends Mamifero {
+    constructor(patas, nome) {
+        super(patas, patas);
+        this.nome = nome;
+    }
+}
+
+const shark = new Lobo(4, "Shark");
+console.log(shark);
+console.log(shark.patas);
